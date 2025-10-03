@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+
+.env
+symbol.txt
 # Distribution / packaging
 .Python
 env/

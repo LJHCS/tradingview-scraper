@@ -28,15 +28,12 @@ class OHLCVConverter:
         """
         conversion_map = {
             "1m": 1,
-            "5m": 5,
-            "15m": 15,
-            "30m": 30,
+            "10m": 10,
             "1h": 60,
-            "2h": 120,
-            "4h": 240,
             "1d": 1440,
             "1w": 10080,
-            "1M": 302400
+            "1M": 43200,
+            "12M": 525600
         }
 
         return conversion_map.get(timeframe)
